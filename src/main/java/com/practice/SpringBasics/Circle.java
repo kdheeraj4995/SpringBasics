@@ -1,7 +1,9 @@
 package com.practice.SpringBasics;
 
 public class Circle {
+	
 	private Point centre;
+	
 	private Float radius;
 
 	public Float getRadius() {
@@ -21,7 +23,7 @@ public class Circle {
 	}
 
 	public void draw() {
-		System.out.println("Circle drawn");
+		System.out.println("Circle drawn using XML Configuration ");
 		System.out.println("Centre : ("+centre.getX()+","+centre.getY()+ ")");
 		System.out.println("Radius : "+ radius);
 	}
