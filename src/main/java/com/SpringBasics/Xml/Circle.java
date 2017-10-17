@@ -1,4 +1,4 @@
-package com.practice.SpringBasics;
+package com.SpringBasics.Xml;
 
 public class Circle {
 	
